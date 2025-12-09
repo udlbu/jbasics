@@ -1,33 +1,36 @@
-# OOP w praktyce (Java)
+# Biblioteka Standardowa
 
-## Cel modułu
-W tym module poznasz kluczowe elementy programowania obiektowego w Javie – w prosty, bezpośredni i praktyczny sposób. Zobaczysz, jak tworzyć klasy i obiekty, jak korzystać z interfejsów, dziedziczenia i polimorfizmu, oraz jak projektować kod, który jest spójny, czytelny i łatwy do rozwijania. Wszystko bez zbędnego formalizmu – tylko to, co naprawdę przydatne.
+## Cel 
+W tym module zapoznamy się ze standardową biblioteką Javy, obejmującą podstawowe struktury danych, pracę z tekstem, obsługę dat i czasu, operacje matematyczne oraz zapis i odczyt plików
 
 ## Plan modułu
-1. Najważniejsze pojęcia OOP i sposób myślenia obiektowego
-2. Klasy i obiekty – fundamenty modelowania
-3. Rekordy i typy wyliczeniowe (enum)
-4. Hermetyzacja danych i kontrola dostępu
-5. Interfejsy jako kontrakty API
-6. Dziedziczenie i rozszerzanie zachowania
-7. Polimorfizm – jeden interfejs, wiele implementacji
-8. Rzutowanie i weryfikacja typów
-9. Elementy statyczne – pola i metody klasy
-10. Dobre praktyki OOP – projektowanie spójnych obiektów
+1. Praca z tekstem
+2. Tablice
+3. Kolekcje i Strumienie
+4. Data/Czas
+5. Wyjątki & Zapisywanie i odczyt plików przy użyciu NIO2 
 
 ## Słowniczek
-**Klasa** – szablon, z którego powstają obiekty.  
-**Obiekt** – instancja klasy, konkretny „byt” z danymi i zachowaniem.  
-**Konstruktor** – metoda uruchamiana przy tworzeniu obiektu.  
-**Hermetyzacja** – ukrywanie danych i udostępnianie kontrolowanego API.  
-**Interfejs** – definicja tego, co obiekt potrafi; kontrakt do implementacji.  
-**Dziedziczenie** – mechanizm pozwalający tworzyć bardziej wyspecjalizowane klasy.  
-**Polimorfizm** – możliwość wywołania tej samej metody na różnych typach.  
-**Rzutowanie** – zamiana typu referencji na bardziej szczegółowy.  
-**Elementy statyczne** – pola i metody należące do klasy, a nie do obiektu.  
-**Enum** – typ wyliczeniowy zawierający ograniczony zestaw wartości.  
-**Record** – uproszczona, niemodyfikowalna forma klasy danych.
+**String** – niezmienny (immutable) typ tekstowy w Javie.  
+**StringBuilder** – mutowalny obiekt do wydajnej pracy z tekstem.  
+**Tablica (array)** – struktura danych o stałej długości przechowująca elementy jednego typu.  
+**Pętla for-each** – uproszczona pętla do iteracji po tablicach i kolekcjach.  
+**Typ generyczny (Generic)** – mechanizm umożliwiający parametryzowanie klasy lub metody typem.  
+**Parametr typu <T>** – symbol reprezentujący nieznany typ używany w klasie lub metodzie.  
+**Kolekcja (Collection)** – dynamiczna struktura danych (List, Set, Map).  
+**Stream API** – narzędzie do funkcyjnego przetwarzania kolekcji (filter, map, collect).  
+**LocalDate / LocalTime / LocalDateTime** – typy reprezentujące datę/czas bez strefy.  
+**Period** – różnica między dwiema datami w latach/miesiącach/dniach.  
+**Duration** – różnica czasu w godzinach/sekundach/milisekundach.  
+**Math** – klasa zawierająca funkcje matematyczne.  
+**BigDecimal** – typ do precyzyjnych obliczeń finansowych.  
+**Wyjątek (Exception)** – sygnał błędu podczas wykonywania programu.  
+**Try-with-resources** – konstrukcja automatycznie zamykająca zasoby.  
+**NIO2 (java.nio.file)** – nowoczesne API do pracy z plikami i ścieżkami.  
+**Path** – reprezentacja ścieżki do pliku lub katalogu.  
+**Files** – klasa z metodami do zapisu i odczytu plików.
+
 
 ## Gdzie szukać przykładów?
-Każdy temat ma własną klasę w projekcie.  
+Każdy temat ma własnu podpakiet np. `_1_praca_z_tekstem`
 Kod jest zwięzły, pokazuje tylko najważniejsze elementy i zawiera krótkie komentarze tam, gdzie są potrzebne.
